@@ -1,0 +1,1663 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2017-03-16 13:23:56",
+    "containerVersion": {
+        "path": "accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/versions/1",
+        "accountId": "%%ACCOUNT_ID%%",
+        "containerId": "%%CONTAINER_ID%%",
+        "containerVersionId": "1",
+        "name": "initial",
+        "container": {
+            "path": "accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%",
+            "accountId": "%%ACCOUNT_ID%%",
+            "containerId": "%%CONTAINER_ID%%",
+            "name": "%%CONTAINER_NAME%%",
+            "publicId": "%%CONTAINER_PUBLIC_ID%%",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1489670566826",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "2",
+                "name": "AdWords - Conversion",
+                "type": "awct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{GOOGLE_CONVERSION_ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{GOOGLE_CONVERSION_LABEL}}"
+                    }
+                ],
+                "fingerprint": "1489668382667",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "1",
+                "name": "AdWords - Remarketing",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{GOOGLE_CONVERSION_ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "NONE"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{GOOGLE_CONVERSION_LABEL}}"
+                    }
+                ],
+                "fingerprint": "1489668305795",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "3",
+                "name": "UA - Event - Call Action",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Call Actions"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Click URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489668526669",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "4",
+                "name": "UA - Event - Download click",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Download Links"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Click URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489668622814",
+                "firingTriggerId": [
+                    "6"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "5",
+                "name": "UA - Event - Dwell - 10s - NI",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Timers"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Dwell 10s"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{getPathWithFragment}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489668724152",
+                "firingTriggerId": [
+                    "11"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "6",
+                "name": "UA - Event - Dwell - 1min",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Timers"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Dwell 1min"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{getPathWithFragment}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489668818126",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "7",
+                "name": "UA - Event - Dwell - 20s",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Timers"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Dwell 20s"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{getPathWithFragment}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489669263336",
+                "firingTriggerId": [
+                    "13"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "8",
+                "name": "UA - Event - Dwell - 40s",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Timers"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Dwell 40s"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{getPathWithFragment}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670040291",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "9",
+                "name": "UA - Event - Dwell - 5s - NI",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Timers"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Dwell 5s"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{getPathWithFragment}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670097565",
+                "firingTriggerId": [
+                    "15"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "10",
+                "name": "UA - Event - JS Error - NI",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "JS Errors"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Error Line}}: {{Error Message}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Error URL}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670166181",
+                "firingTriggerId": [
+                    "8"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "11",
+                "name": "UA - Event - Mail Action",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Mail Actions"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Click URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670235064",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "12",
+                "name": "UA - Event - Other click - NI",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Other Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Click URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670308117",
+                "firingTriggerId": [
+                    "9"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "13",
+                "name": "UA - Event - Outbound click - NI",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Outbound Links"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Click URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670409523",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "14",
+                "name": "UA - Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "page"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{getPathWithFragment}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "{{Page Path}}"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{getPathWithFragment}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1489670566826",
+                "firingTriggerId": [
+                    "7",
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "5",
+                "name": "Trigger - Call click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^(call|callto|wtai|tel|sms|skype):"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1489666215574"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "6",
+                "name": "Trigger - Download click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "(\\.(zip|rar|mp3|mp4|avi|ogg|mpg|mpeg|wav|flac|doc|docx|xls|xlsx|ppt|pptx|pdf)(\\?.*)?$)|(/storage/(.+))"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1489666655599"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "16",
+                "name": "Trigger - Email click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^(mailto):"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1489667910013"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "7",
+                "name": "Trigger - History fragment change",
+                "type": "HISTORY_CHANGE",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{History Source}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "popstate"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1489666709230"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "8",
+                "name": "Trigger - JS Error",
+                "type": "JS_ERROR",
+                "fingerprint": "1489666758642"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "9",
+                "name": "Trigger - Other click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^(javascript|mailto|market|call|callto|wtai|tel|sms|skype|irc|geopoint|ymsgr|msnim|gtalk|sip):"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1489667553425"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "10",
+                "name": "Trigger - Outbound click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^(http|https|ftp)://"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "%%HOST_NAME%%"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1489667704053"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "11",
+                "name": "Trigger - Timer - 10s",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "10000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1489667758837"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "12",
+                "name": "Trigger - Timer - 1min",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "60000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "20"
+                },
+                "fingerprint": "1489667790930"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "13",
+                "name": "Trigger - Timer - 20s",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "20000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1489667818953"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "14",
+                "name": "Trigger - Timer - 40s",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "40000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1489667842638"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "15",
+                "name": "Trigger - Timer - 5s",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "5000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1489667866973"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "4",
+                "name": "GOOGLE_CONVERSION_ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "0"
+                    }
+                ],
+                "fingerprint": "1489665445517"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "5",
+                "name": "GOOGLE_CONVERSION_LABEL",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "0"
+                    }
+                ],
+                "fingerprint": "1489665465554"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "1",
+                "name": "UA_ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-51827250-6"
+                    }
+                ],
+                "fingerprint": "1489663494261"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "2",
+                "name": "document.head.meta.robots",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function () {\n  try {\n     if (typeof document.getElementsByTagName(\"META\")[\"robots\"].content !== 'undefined')\n\t\t{return document.getElementsByTagName(\"META\")[\"robots\"].content;}\n     else {return \"meta-robots-missing\";}\n    }\n  catch(e) {}\n  return;\n}"
+                    }
+                ],
+                "fingerprint": "1489663561147"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "3",
+                "name": "getPathWithFragment",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  return window.location.pathname + window.location.search + window.location.hash;\n}"
+                    }
+                ],
+                "fingerprint": "1489665410160"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "FORM_ELEMENT",
+                "name": "Form Element"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "FORM_CLASSES",
+                "name": "Form Classes"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "FORM_TARGET",
+                "name": "Form Target"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "FORM_URL",
+                "name": "Form URL"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "FORM_TEXT",
+                "name": "Form Text"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "ERROR_MESSAGE",
+                "name": "Error Message"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "ERROR_URL",
+                "name": "Error URL"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "ERROR_LINE",
+                "name": "Error Line"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "NEW_HISTORY_FRAGMENT",
+                "name": "New History Fragment"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "HISTORY_SOURCE",
+                "name": "History Source"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "type": "ENVIRONMENT_NAME",
+                "name": "Environment Name"
+            }
+        ],
+        "fingerprint": "1489670600843",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/versions/1?apiLink=version"
+    }
+}
