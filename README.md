@@ -35,7 +35,7 @@
 	* Exclude local IPs
 	* Aggregate source - facebook.com	
 	* Exclude Language is (not set)
-        * **!!! do not edit applied shared filter, it will change its original definition**
+	* **!!! do not edit applied shared filter, it will change its original definition**
 15. OPTIONAL: connect adWords
 16. IMPORT from https://github.com/foxpress/GTM-default-container 
 
