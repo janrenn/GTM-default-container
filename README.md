@@ -22,7 +22,11 @@
 5. Copy views to ***Optimized PROD profile*** and ***TEST profile***
 6. *Property Settings* -> default view to **Optimized**
 7. *Property Settings* -> Enable **Demographics and Interest Reports** + **Use enhanced link attribution** -> Save
-8. Insert GTM code on every page of production site (via admin, template or another method), add `<script>var dataLayer = dataLayer || [];</script>` before the first code part
+8. Insert GTM code on every page of production site (via admin, template or another method), add 
+```
+<script>var dataLayer = dataLayer || [];</script>
+```
+before the first code part
 9. Setup ***Search Console*** (https://www.google.com/webmasters/tools)
 10. Connect *Search Console* with *GA*
 11. *GA -> property -> tracking info -> data collection ->* **Remarketing ON**
@@ -35,7 +39,7 @@
 	* Exclude local IPs
 	* Aggregate source - facebook.com	
 	* Exclude Language is (not set)
-**!!! do not edit applied shared filter, it will change its original definition**
+        * **!!! do not edit applied shared filter, it will change its original definition**
 15. OPTIONAL: connect adWords
 16. IMPORT from https://github.com/foxpress/GTM-default-container 
 
