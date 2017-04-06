@@ -6,12 +6,12 @@
 ## Variables
 
 ```
-%%ACCOUNT_ID%%
-%%CONTAINER_ID%%
+%%ACCOUNT_ID%%  // GTM account id (integer)
+%%CONTAINER_ID%%  // GTM container id (integer)
 %%CONTAINER_NAME%%
-%%CONTAINER_PUBLIC_ID%%
-%%HOST_NAME%%
-%%UA_ID%%
+%%CONTAINER_PUBLIC_ID%%  // GTM-XXXXXX
+%%HOST_NAME%%  // bez www (example.com, subdomain.example.com)
+%%UA_ID%%  // Universal Analytics id
 ```
 
 ## Implementation Checklist
