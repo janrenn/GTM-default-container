@@ -11,6 +11,7 @@
 %%CONTAINER_NAME%%
 %%CONTAINER_PUBLIC_ID%%
 %%HOST_NAME%%
+%%UA_ID%%
 ```
 
 ## Implementation Checklist
