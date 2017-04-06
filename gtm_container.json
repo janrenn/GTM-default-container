@@ -1469,7 +1469,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "value",
-                        "value": "UA-51827250-6"
+                        "value": "%%UA_ID%%"
                     }
                 ],
                 "fingerprint": "1489663494261"
