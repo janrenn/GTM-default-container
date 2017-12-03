@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2017-03-16 13:23:56",
+    "exportTime": "2017-12-03 12:34:33",
     "containerVersion": {
         "path": "accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/versions/1",
         "accountId": "%%ACCOUNT_ID%%",
@@ -16,14 +16,14 @@
             "usageContext": [
                 "WEB"
             ],
-            "fingerprint": "1489670566826",
+            "fingerprint": "1512304450505",
             "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/workspaces?apiLink=container"
         },
         "tag": [
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "tagId": "2",
+                "tagId": "1",
                 "name": "AdWords - Conversion",
                 "type": "awct",
                 "parameter": [
@@ -38,16 +38,16 @@
                         "value": "{{GOOGLE_CONVERSION_LABEL}}"
                     }
                 ],
-                "fingerprint": "1489668382667",
+                "fingerprint": "1505137567903",
                 "firingTriggerId": [
-                    "2147479553"
+                    "17"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "tagId": "1",
+                "tagId": "2",
                 "name": "AdWords - Remarketing",
                 "type": "sp",
                 "parameter": [
@@ -67,9 +67,9 @@
                         "value": "{{GOOGLE_CONVERSION_LABEL}}"
                     }
                 ],
-                "fingerprint": "1489668305795",
+                "fingerprint": "1505137582162",
                 "firingTriggerId": [
-                    "2147479553"
+                    "17"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -84,6 +84,11 @@
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -136,7 +141,7 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489668526669",
+                "fingerprint": "1505137378744",
                 "firingTriggerId": [
                     "5"
                 ],
@@ -153,6 +158,11 @@
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -205,7 +215,7 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489668622814",
+                "fingerprint": "1505137378745",
                 "firingTriggerId": [
                     "6"
                 ],
@@ -221,6 +231,11 @@
                     {
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
                         "value": "true"
                     },
                     {
@@ -274,9 +289,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489668724152",
+                "fingerprint": "1505137378745",
                 "firingTriggerId": [
-                    "11"
+                    "12"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -291,6 +306,11 @@
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -343,9 +363,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489668818126",
+                "fingerprint": "1505137378746",
                 "firingTriggerId": [
-                    "12"
+                    "13"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -360,6 +380,11 @@
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -412,9 +437,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489669263336",
+                "fingerprint": "1505137378747",
                 "firingTriggerId": [
-                    "13"
+                    "14"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -429,6 +454,11 @@
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -481,9 +511,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670040291",
+                "fingerprint": "1505137378748",
                 "firingTriggerId": [
-                    "14"
+                    "15"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -497,6 +527,11 @@
                     {
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
                         "value": "true"
                     },
                     {
@@ -550,9 +585,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670097565",
+                "fingerprint": "1505137378748",
                 "firingTriggerId": [
-                    "15"
+                    "16"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -566,6 +601,11 @@
                     {
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
                         "value": "true"
                     },
                     {
@@ -619,9 +659,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670166181",
+                "fingerprint": "1505137378749",
                 "firingTriggerId": [
-                    "8"
+                    "9"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -636,6 +676,11 @@
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -688,9 +733,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670235064",
+                "fingerprint": "1505137378750",
                 "firingTriggerId": [
-                    "16"
+                    "7"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -704,6 +749,11 @@
                     {
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
                         "value": "true"
                     },
                     {
@@ -757,9 +807,9 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670308117",
+                "fingerprint": "1505137378751",
                 "firingTriggerId": [
-                    "9"
+                    "10"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -773,6 +823,11 @@
                     {
                         "type": "BOOLEAN",
                         "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
                         "value": "true"
                     },
                     {
@@ -826,9 +881,63 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670409523",
+                "fingerprint": "1505137378752",
                 "firingTriggerId": [
-                    "10"
+                    "11"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "tagId": "15",
+                "name": "UA - Event - formSent",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "{{eventValue}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{eventCategory}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Tracking ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{eventAction}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{eventLabel}}"
+                    }
+                ],
+                "fingerprint": "1512304235292",
+                "firingTriggerId": [
+                    "19"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -839,6 +948,11 @@
                 "name": "UA - Pageview",
                 "type": "ua",
                 "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
                     {
                         "type": "BOOLEAN",
                         "key": "doubleClick",
@@ -921,15 +1035,45 @@
                         "value": "{{UA_ID}}"
                     }
                 ],
-                "fingerprint": "1489670566826",
+                "fingerprint": "1505137378753",
                 "firingTriggerId": [
-                    "7",
+                    "8",
                     "2147479553"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             }
         ],
         "trigger": [
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "17",
+                "name": "NO PAGES",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{UA_ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "-"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1505137528631"
+            },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
@@ -973,7 +1117,7 @@
                 "uniqueTriggerId": {
                     "type": "TEMPLATE"
                 },
-                "fingerprint": "1489666215574"
+                "fingerprint": "1505137378737"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
@@ -1035,12 +1179,12 @@
                 "uniqueTriggerId": {
                     "type": "TEMPLATE"
                 },
-                "fingerprint": "1489666655599"
+                "fingerprint": "1505137378738"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "16",
+                "triggerId": "7",
                 "name": "Trigger - Email click",
                 "type": "LINK_CLICK",
                 "filter": [
@@ -1080,12 +1224,12 @@
                 "uniqueTriggerId": {
                     "type": "TEMPLATE"
                 },
-                "fingerprint": "1489667910013"
+                "fingerprint": "1505137378739"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "7",
+                "triggerId": "8",
                 "name": "Trigger - History fragment change",
                 "type": "HISTORY_CHANGE",
                 "filter": [
@@ -1105,20 +1249,20 @@
                         ]
                     }
                 ],
-                "fingerprint": "1489666709230"
-            },
-            {
-                "accountId": "%%ACCOUNT_ID%%",
-                "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "8",
-                "name": "Trigger - JS Error",
-                "type": "JS_ERROR",
-                "fingerprint": "1489666758642"
+                "fingerprint": "1505137378739"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
                 "triggerId": "9",
+                "name": "Trigger - JS Error",
+                "type": "JS_ERROR",
+                "fingerprint": "1505137378739"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "10",
                 "name": "Trigger - Other click",
                 "type": "LINK_CLICK",
                 "filter": [
@@ -1158,12 +1302,12 @@
                 "uniqueTriggerId": {
                     "type": "TEMPLATE"
                 },
-                "fingerprint": "1489667553425"
+                "fingerprint": "1505137378739"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "10",
+                "triggerId": "11",
                 "name": "Trigger - Outbound click",
                 "type": "LINK_CLICK",
                 "filter": [
@@ -1240,12 +1384,12 @@
                 "uniqueTriggerId": {
                     "type": "TEMPLATE"
                 },
-                "fingerprint": "1489667704053"
+                "fingerprint": "1505137378740"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "11",
+                "triggerId": "12",
                 "name": "Trigger - Timer - 10s",
                 "type": "TIMER",
                 "autoEventFilter": [
@@ -1277,12 +1421,12 @@
                     "type": "TEMPLATE",
                     "value": "1"
                 },
-                "fingerprint": "1489667758837"
+                "fingerprint": "1505137378740"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "12",
+                "triggerId": "13",
                 "name": "Trigger - Timer - 1min",
                 "type": "TIMER",
                 "autoEventFilter": [
@@ -1314,12 +1458,12 @@
                     "type": "TEMPLATE",
                     "value": "20"
                 },
-                "fingerprint": "1489667790930"
+                "fingerprint": "1505137378741"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "13",
+                "triggerId": "14",
                 "name": "Trigger - Timer - 20s",
                 "type": "TIMER",
                 "autoEventFilter": [
@@ -1351,12 +1495,12 @@
                     "type": "TEMPLATE",
                     "value": "1"
                 },
-                "fingerprint": "1489667818953"
+                "fingerprint": "1505137378741"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "14",
+                "triggerId": "15",
                 "name": "Trigger - Timer - 40s",
                 "type": "TIMER",
                 "autoEventFilter": [
@@ -1388,12 +1532,12 @@
                     "type": "TEMPLATE",
                     "value": "1"
                 },
-                "fingerprint": "1489667842638"
+                "fingerprint": "1505137378741"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "triggerId": "15",
+                "triggerId": "16",
                 "name": "Trigger - Timer - 5s",
                 "type": "TIMER",
                 "autoEventFilter": [
@@ -1425,14 +1569,39 @@
                     "type": "TEMPLATE",
                     "value": "1"
                 },
-                "fingerprint": "1489667866973"
+                "fingerprint": "1505137378741"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "triggerId": "19",
+                "name": "Trigger - formSent",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "formSent"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1512303769963"
             }
         ],
         "variable": [
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "variableId": "4",
+                "variableId": "2",
                 "name": "GOOGLE_CONVERSION_ID",
                 "type": "c",
                 "parameter": [
@@ -1442,12 +1611,12 @@
                         "value": "0"
                     }
                 ],
-                "fingerprint": "1489665445517"
+                "fingerprint": "1505137378742"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "variableId": "5",
+                "variableId": "3",
                 "name": "GOOGLE_CONVERSION_LABEL",
                 "type": "c",
                 "parameter": [
@@ -1457,7 +1626,62 @@
                         "value": "0"
                     }
                 ],
-                "fingerprint": "1489665465554"
+                "fingerprint": "1505137378742"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "10",
+                "name": "Tracking ID",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA_ID}}"
+                    }
+                ],
+                "fingerprint": "1512304097769"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
@@ -1472,12 +1696,12 @@
                         "value": "%%UA_ID%%"
                     }
                 ],
-                "fingerprint": "1489663494261"
+                "fingerprint": "1505137378738"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "variableId": "2",
+                "variableId": "4",
                 "name": "document.head.meta.robots",
                 "type": "jsm",
                 "parameter": [
@@ -1487,12 +1711,132 @@
                         "value": "function () {\n  try {\n     if (typeof document.getElementsByTagName(\"META\")[\"robots\"].content !== 'undefined')\n\t\t{return document.getElementsByTagName(\"META\")[\"robots\"].content;}\n     else {return \"meta-robots-missing\";}\n    }\n  catch(e) {}\n  return;\n}"
                     }
                 ],
-                "fingerprint": "1489663561147"
+                "fingerprint": "1505137378742"
             },
             {
                 "accountId": "%%ACCOUNT_ID%%",
                 "containerId": "%%CONTAINER_ID%%",
-                "variableId": "3",
+                "variableId": "7",
+                "name": "eventAction",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "generic_action"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventAction"
+                    }
+                ],
+                "fingerprint": "1512303574279"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "6",
+                "name": "eventCategory",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "Unsorted events"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventCategory"
+                    }
+                ],
+                "fingerprint": "1512303539861"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "8",
+                "name": "eventLabel",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "generic_label"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventLabel"
+                    }
+                ],
+                "fingerprint": "1512303607196"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "9",
+                "name": "eventValue",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "0"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventValue"
+                    }
+                ],
+                "fingerprint": "1512303637050"
+            },
+            {
+                "accountId": "%%ACCOUNT_ID%%",
+                "containerId": "%%CONTAINER_ID%%",
+                "variableId": "5",
                 "name": "getPathWithFragment",
                 "type": "jsm",
                 "parameter": [
@@ -1502,7 +1846,7 @@
                         "value": "function() {\n  return window.location.pathname + window.location.search + window.location.hash;\n}"
                     }
                 ],
-                "fingerprint": "1489665410160"
+                "fingerprint": "1505137378742"
             }
         ],
         "builtInVariable": [
@@ -1657,7 +2001,7 @@
                 "name": "Environment Name"
             }
         ],
-        "fingerprint": "1489670600843",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/versions/1?apiLink=version"
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/%%ACCOUNT_ID%%/containers/%%CONTAINER_ID%%/versions/0?apiLink=version"
     }
 }
